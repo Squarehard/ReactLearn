@@ -1,3 +1,11 @@
+
+# MAIN FOCUS OF THIS APP : [i18next](https://www.i18next.com/overview/getting-started)
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

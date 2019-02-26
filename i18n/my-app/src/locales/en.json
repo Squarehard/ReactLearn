@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "girlsAndBoys": "$t(girls, {'count': {{girls}} }) and {{count}} boy",
+    "To get started": "To get started",
+    "Welcome to React": "Welcome to React and react-i18next",
+    "teste.Coiso": "Tiago"
+  },
+  "outro": {
+    "To get started": "outros",
+    "Welcome to React": "outros",
+    "teste.Coiso": "outros"
+  }
+}
