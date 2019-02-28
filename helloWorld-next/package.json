@@ -3,19 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 8000",
+    "startP": "next start -p $PORT",
+    "devServer": "node server.js",
+    "buildServer": "next build",
+    "startServer": "NODE_ENV=production node server.js"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^8.0.3",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "react-markdown": "^4.0.6"
   }
 }
